@@ -1,13 +1,16 @@
 <script>
+import DashboardComponent from './DashboardComponent.vue';
+
 export default {
-    name: "HomeComponent"
+    name: "HomeComponent",
+    components: {
+        DashboardComponent 
+    }
 }
 </script>
 
 <template>
-    <div>
-        <h1>Eu sou a Dashboard</h1>
-    </div>
+    <DashboardComponent />
 </template>
 
 <style scoped>

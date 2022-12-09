@@ -1,16 +1,17 @@
 <script>
-import HomeComponent from '../components/HomeComponent.vue';
+
+import DashboardComponent from '../components/DashboardComponent.vue';
 
 export default {
     name: 'HomeView',
     components: {
-    HomeComponent
-}
+        DashboardComponent
+    }
 }
 </script>
 
 <template>
-    <HomeComponent />
+    <DashboardComponent />
 </template>
 
 <style>

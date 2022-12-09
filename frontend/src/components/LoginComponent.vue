@@ -41,4 +41,4 @@ export default {
     </div>
 </template>
 
-<style lang="scss" src="./style.scss" scoped/>
+<style lang="scss" src="./LoginComponent.scss" scoped/>
